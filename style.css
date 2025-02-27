@@ -221,7 +221,9 @@ textarea:focus-visible {
 }
 
 .section-navbar img {
-  width: 25%;
+  width: 20%;
+  display: flex ; 
+  justify-content: start;
 }
 
 .section-navbar .navbar ul {
@@ -468,9 +470,9 @@ textarea {
   align-items: flex-start;
   gap: 2.5rem;
   width: 36rem;
-  padding: 1.6rem;
+  padding: 2.6rem;
   /* max-width: 1000px; */
-  margin: 1.8vh auto;
+  margin: 0.6vh auto;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 0.3rem;
   -webkit-border-radius: 0.2rem;
@@ -494,7 +496,7 @@ textarea {
 
 .productImage {
   max-width: 100%;
-  width: 32rem;
+  width: 42rem;
   height: auto;
 }
 
@@ -705,8 +707,6 @@ textarea {
 /*****  Add to Cart page ends *****/
 
 /*****  media queries Section *****/
-
-/* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
 
 @media (width <= 1380px) {
   html {
